@@ -1,10 +1,11 @@
 # Introductory example using the housing data used here: 
 # http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+# install.packages(c('rpart', 'rpart.plot'))
 library(rpart)
 library(rpart.plot)
 
 # Read in data
-setwd('~/Documents/info-201/m15-special-topics/exercise-2')
+# setwd('C:/Users/Benjamin/Documents/Info201/m15-special-topics/exercise-2')
 homes <- read.csv('data/housing-data.csv')
 
 # Function to compare values
